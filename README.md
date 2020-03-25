@@ -1,6 +1,6 @@
 ## Basic Concepts:
-  - class
-  - object(instance)
+  - <b>class</b>
+  - <b>object(instance)</b>
   - <b>reference:</b> address of objects, likes name card save in stack
   - <b>dereference:</b> find object base on address
   - <b>Primitive data types:</b> no reference, data directly stored in memory
