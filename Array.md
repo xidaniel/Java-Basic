@@ -34,37 +34,37 @@
  ## Coding example. SelectionSort
 
 ______________________________________________________________________________________
-   public class SelectionSort {
+      public class SelectionSort {
 
-       public int[] sort(int[] array){
-           if (array == null || array.length <= 1){
-               return array;
-           }
+          public int[] sort(int[] array){
+              if (array == null || array.length <= 1){
+                  return array;
+              }
 
-           for (int i = 0; i < array.length; i++){
-               int globalMin = i;
-               for(int j = i + 1; j < array.length; j++){
-                   if (array[j] < array[globalMin]){
-                       globalMin = j;
-                   }
-               }
-               swap(array, i, globalMin);
-           }
-           return array;
-       }
+              for (int i = 0; i < array.length; i++){
+                  int globalMin = i;
+                  for(int j = i + 1; j < array.length; j++){
+                      if (array[j] < array[globalMin]){
+                          globalMin = j;
+                      }
+                  }
+                  swap(array, i, globalMin);
+              }
+              return array;
+          }
 
-       private void swap(int[] array, int i, int j){
-           int temp = array[i];
-           array[i] = array[j];
-           array[j] = temp;
+          private void swap(int[] array, int i, int j){
+              int temp = array[i];
+              array[i] = array[j];
+              array[j] = temp;
 
-       }
+          }
 
-       public static void main(String[] args){
-           int[] array = {4,2,3,7,8,5,1};
-           SelectionSort ob = new SelectionSort();
-           int [] ans = ob.sort(array);
-           System.out.println(Arrays.toString(ans));
-       }
-   }
+          public static void main(String[] args){
+              int[] array = {4,2,3,7,8,5,1};
+              SelectionSort ob = new SelectionSort();
+              int [] ans = ob.sort(array);
+              System.out.println(Arrays.toString(ans));
+          }
+      }
 ____________________________________________________________________________________
