@@ -38,6 +38,7 @@ ________________________________________________________________________________
 
           public int[] sort(int[] array){
               int globalMin;
+              
               if (array == null || array.length <= 1){
                   return array;
               }
