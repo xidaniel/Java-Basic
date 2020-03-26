@@ -42,3 +42,7 @@ Creat object: Student firstStudent = new Student("Daniel")
  
 ## Memory in Java
 
+
+
+
+## Arrays(helper for array) vs. array(object)
