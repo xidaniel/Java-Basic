@@ -32,7 +32,7 @@ Creat object: Student firstStudent = new Student("Daniel")
   - Initialization: call to a constructor
   
 ## Parameter Passing
-  - Java is always pass by value(copy value)
+  - <b>Java is always pass by value(copy value)</b>
      - primitive type: copy of the value itself
      - objects: copy of the object reference
  
