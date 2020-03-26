@@ -31,16 +31,14 @@ Creat object: Student firstStudent = new Student("Daniel")
   - Instantiation: firstStudent = new Student()
   - Initialization: call to a constructor
   
-## Object memory layout
-   - Stack: store references
-   - Heap: store objects
-   
 ## Parameter Passing
   - Java is always pass by value(copy value)
      - primitive type: copy of the value itself
      - objects: copy of the object reference
  
 ## Memory in Java
+   - Stack: store references
+   - Heap: store objects
 
              |_____________________Memory______________________| 
              |                                                 |   
