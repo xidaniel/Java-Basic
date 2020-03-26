@@ -37,12 +37,13 @@ ________________________________________________________________________________
       public class SelectionSort {
 
           public int[] sort(int[] array){
+              int globalMin;
               if (array == null || array.length <= 1){
                   return array;
               }
 
               for (int i = 0; i < array.length; i++){
-                  int globalMin = i;
+                  globalMin = i;
                   for(int j = i + 1; j < array.length; j++){
                       if (array[j] < array[globalMin]){
                           globalMin = j;
