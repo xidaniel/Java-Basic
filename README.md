@@ -59,6 +59,3 @@ Creat object: Student firstStudent = new Student("Daniel")
              |                                                 |
              |                                                 |
              |_________________________________________________| 
-
-
-## Arrays(helper for array) vs. array(object)
