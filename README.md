@@ -21,7 +21,7 @@
   - <b>default:</b> only the same package can access
   
   - <b>Class name == File name :</b> There can only be one public class per .java file.
-  - public static void main(String[] args) is the main entrance of any java program
+  - <b>public static void main(String[] args)</b> is the main entrance of any java program
   - <b>print:</b> System.out.println()
  
 ## Working with Objects
