@@ -20,16 +20,16 @@
   - <b>protected:</b> only my children and same package can access
   - <b>default:</b> only the same package can access
   
-  - Class name == File name : There can only be one public class per .java file.
+  - <b>Class name == File name :</b> There can only be one public class per .java file.
   - public static void main(String[] args) is the main entrance of any java program
-  - print: System.out.println()
+  - <b>print:</b> System.out.println()
  
 ## Working with Objects
 e.g.
 Creat object: Student firstStudent = new Student("Daniel")
-  - Declaration : Student firstStudent
-  - Instantiation: firstStudent = new Student()
-  - Initialization: call to a constructor
+  - <b>Declaration:</b> Student firstStudent
+  - <b>Instantiation:</b> firstStudent = new Student()
+  - <b>Initialization:</b> call to a constructor
   
 ## Parameter Passing
   - <b>Java is always pass by value(copy value)</b>
