@@ -18,7 +18,7 @@
 
 ## Notice:
 1. Array expend: default 1.5 in java.  e.g. size = 10 expend to size = 15
-   - add element method of amortized time: (nx1 + 1x0.5n) / (0.5n) = 3 = O(1)
+   - add element method of <b>amortized time</b>: (nx1 + 1x0.5n) / (0.5n) = 3 = O(1)
 2. Eager computation is used in LinkedList for getting size
 3. null and empty
    - null: there is no array object associated with the reference
