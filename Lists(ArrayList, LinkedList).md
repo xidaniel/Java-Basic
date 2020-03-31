@@ -20,8 +20,15 @@
 1. Array expend: default 1.5 in java.  e.g. size = 10 expend to size = 15
    - add element method of amortized time: (nx1 + 1x0.5n) / (0.5n) = 3 = O(1)
 2. Eager computation is used in LinkedList for getting size
+3. null and empty
+   - null: there is no array object associated with the reference
+    - empty array list: there is an array/list object, but the array/list object doen not contain any element.
+   
+          e.g.
+            int[] array = null;
+            int[] array = new int[0];
 
-## How to select which data structure
+## How to select which data structure to implement a Lists
    - ArrayList
      - a lot of random access
      - add/remove at the end
