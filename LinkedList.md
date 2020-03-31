@@ -9,3 +9,6 @@
             this.value = value;
             this.next = null;
         }
+
+
+## Abstract
