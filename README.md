@@ -1,4 +1,5 @@
-## Basic Concepts: Recommended E-book: Effecitve Java
+## Basic Concepts:
+### Recommended E-book: Effecitve Java
   - <b>class</b>
   - <b>object(instance)</b>
   - <b>reference:</b> address of objects, likes name card save in stack
