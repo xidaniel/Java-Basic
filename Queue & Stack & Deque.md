@@ -1,8 +1,8 @@
 # Queue & Stack & Deque
   - Queue: FIFO
-    - offer()
-    - poll()
-    - peek()
+    - offer() - offer at the tail
+    - poll() - poll at the head
+    - peek() - look at head
   - Stack: LIFO
     - wait....
   - Deque: FIFO & LIFO 
