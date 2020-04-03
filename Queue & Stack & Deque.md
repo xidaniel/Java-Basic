@@ -21,4 +21,4 @@
     - If want to implement stack, perfer to use deque class
 ## Implement queue and deque
   - LinkedList
-  - circular array
+  - Circular array
