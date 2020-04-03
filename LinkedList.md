@@ -1,4 +1,5 @@
 # LinkedList
+  - value only be interger object not primitive type
 
 ## Create ListNode
     public class ListNode {
