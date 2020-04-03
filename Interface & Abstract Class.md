@@ -1,8 +1,16 @@
+## Why do we use interface ?
+   - It likes a protocol to standardize the signature of the method.
+   - Varialbes are public, static, final type.
+   - It is implemented by using a class.
+   - It is used to achieve total abstraction.
+   - Since java does not support multiple inheritance in case of class, but by using interface it can achieve multiple inheritance .
+   - It is also used to achieve loose coupling.
+   - Interfaces are used to implement abstraction.
+   - The reason is, abstract classes may contain non-final variables, whereas variables in interface are final, public and static.
+   
+ 
 
-List<Node> myList = new LinkedList<Node>();
-
-
-Coding Example:
+## Coding Example:
 __________________________________________________________
 
             public interface Device {
