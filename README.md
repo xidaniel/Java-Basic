@@ -6,7 +6,7 @@
   - <b>dereference:</b> find object base on address
   - <b>Primitive data types:</b> no reference, data directly stored in memory
     - boolean, char, byte, short, int, long, float, double
-  - <b>Interger</b>: It is a object, return int value and null.
+  - <b>Integer</b>: It is a object, return int value and null.
   - <b>Class type:</b> stored in heap, operated by references
   - <b>Constructure:</b> a special method to initialize objects, must have the same name as the class
     - this: It is this object
