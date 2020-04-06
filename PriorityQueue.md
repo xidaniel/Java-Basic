@@ -1,10 +1,13 @@
 # PriorityQueue
 ## Method
-  - offer()  O(logn)
-  - poll()   O(logn)
-  - peek()   O(1)
-  - size()   O(1)
-  - isEmpty  O(1)
+
+| Operation| Time Complexity |  
+|---------|-----------|
+| offer()  |   O(logn)  |
+| poll()   |   O(logn)  |
+| peek()   |   O(1)     |
+| size()   |   O(1)     |
+| isEmpty()|  O(1)      |
 
 ## Comparable interface vs Comparator interface
   - comparable interface is natural order in calss
