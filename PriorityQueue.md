@@ -15,7 +15,7 @@
   
   
 ## KSmallest
-  - Analysis minHeap and maxHeap
+  - Analyze minHeap and maxHeap
     - Time complexity:
       - minHeap: O((n + k)logn)
       - maxHeap: O((n + k)logk)
