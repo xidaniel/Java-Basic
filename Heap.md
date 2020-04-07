@@ -26,10 +26,10 @@
       - Time Complexity analyze:
         - 1 * 2^(k-2) + 2 * 2^(k-3) + 3 * 2^(k-4) + ... + (k-2) * 2^1 + (k-1)*2^0 = O(n)
         
-    - Do percolateUp
+    - Do percolateUp  O(nlogn)
       - S = 0 * 2^0 + 1 * 2^1 + 2 * 2^2 + ... + (h-1) * 2^(h-1) = O(h * 2^h) = O(logn * n) = O(nlogn)
       
- ## Heap Sort (Unstable sort)
-    - Not suitable for industrial use (cannot use distribution system and parallel computing) 
-    - Time Complexity: O(nlogn)
-    - Space Complexity: O(1)
+## Heap Sort (Unstable sort)
+  - Not suitable for industrial use (cannot use distribution system and parallel computing) 
+  - Time Complexity: O(nlogn)
+  - Space Complexity: O(1)
