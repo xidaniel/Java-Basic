@@ -22,6 +22,13 @@
   - <b>protected:</b> only my children and same package can access
   - <b>default:</b> only the same package can access
   
+| Modifier | class | package | subclass | world |  
+|----------|-------|---------|----------|-------|
+|  Public  |  Y    |   Y     |   Y      |  Y    |
+| Potected |  Y    |   Y     |   Y      |  N    |
+| Default |  Y    |   Y     |   N      |  N    |
+| Private  |  Y    |   N     |   N      |  N    |  
+
   - <b>Class name == File name :</b> There can only be one public class per .java file.
   - <b>public static void main(String[] args)</b> is the main entrance of any java program
   - <b>print:</b> System.out.println()
