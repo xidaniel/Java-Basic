@@ -2,9 +2,9 @@
 
 ## TreeNode class
          public class TreeNode {
-              private int key;
-              private TreeNode left;
-              private TreeNode right;
+              int key;
+              TreeNode left;
+              TreeNode right;
 
               public TreeNode(int key) {
                   this.key = key;
