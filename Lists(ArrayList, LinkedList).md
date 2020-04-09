@@ -50,4 +50,5 @@
      - When the time complexity is similar for using ArrayList and LinkedList
      - need a Vector
    - LinkedList
-     - need a stack
+     - implements a Deque
+     - Deque implements a stack
