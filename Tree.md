@@ -62,7 +62,42 @@
                  return res;
              }
          
-  - PostOrder
+  - <b>PostOrder</b>
+         
+             public List<Integer> postOrder(TreeNode root) {
+                 List<Integer> res = new ArrayList<Integer>();
+                 if (root == null) {
+                     return res;
+                 }
+                 Deque<TreeNode> stack = new LinkedList<>();
+                 TreeNode prev = null;
+                 stack.offerFirst(root);
+                 while (!stack.isEmpty()) {
+                     TreeNode cur = stack.pollFirst();
+                     if (prev == null || cur == prev.left || cur == prev.right) {
+                         if (cur.left != null) {
+                             stack.offerFirst(cur.left);
+                         } else if (cur.right != null) {
+                             stack.offerFirst(cur.right);
+                         } else {
+                             res.add(cur.key);
+                             stack.pollFirst();
+                         }
+                     } else if (prev == cur.left) {
+                         if (cur.right != null) {
+                             stack.offerFirst(cur.right);
+                         } else {
+                             res.add(cur.key);
+                             stack.pollFirst();
+                         }
+                     } else {
+                         res.add(cur.key);
+                         stack.pollFirst();
+                     }
+                     prev = cur;
+                 }
+                 return res;
+             }
     
 ## Search in BST
           ### recursive
