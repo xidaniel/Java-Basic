@@ -17,7 +17,51 @@
     
 ## Traversals
   - PerOrder
+  
+           public List<Integer> preOrder(TreeNode root) {
+                 List<Integer> res = new ArrayList<Integer>();
+                 if (root == null) {
+                     return res;
+                 }
+                 Deque<TreeNode> stack = new LinkedList<TreeNode>();
+                 stack.offerFirst(root);
+
+                 while (!stack.isEmpty()) {
+                     TreeNode cur = stack.pollFirst();
+                     if (cur.right != null) {
+                         stack.offerFirst(cur.right);
+                     }
+                     if (cur.left != null) {
+                         stack.offerFirst(cur.left);
+                     }
+                     res.add(cur.key);
+                 }
+                 return res;
+             }
+
+  
   - InOrder
+  
+           public List<Integer> inOrder(TreeNode root) {
+                 List<Integer> res = new ArrayList<Integer>();
+                 if (root == null) {
+                     return res;
+                 }
+                 Deque<TreeNode> stack = new LinkedList<TreeNode>();
+                 TreeNode helper = root;
+                 while (!stack.isEmpty() || helper != null) {
+                     if (helper != null) {
+                         stack.offerFirst(helper);
+                         helper = helper.left;
+                     } else {
+                         helper = stack.pollFirst();
+                         res.add(helper.key);
+                         helper = helper.right;
+                     }
+                 }
+                 return res;
+             }
+         
   - PostOrder
     
 ## Search in BST
