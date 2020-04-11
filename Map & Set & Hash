@@ -1,10 +1,11 @@
 ## Set
-  - HashSet
-  - TreeSet
-  - LinkedHashSet
+  - HashSet: No guarantees the order of iteration
+  - TreeSet: Implemented by BBST
+  - LinkedHashSet: Guarantees the order
   
   
 ## Map <K,V>
   - HashMap
+    - It can only has one null key, it is always mapped to bucket 0.
   - TreeMap
   - LinkedHashMap
