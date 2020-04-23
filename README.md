@@ -1,4 +1,14 @@
 ## Basic Concepts:
+### Store
+   - bit
+   - 1 Byte = 8 bit
+   - 1 KB = 1024 Byte
+   - 1 MB = 1024 KB
+   - 1 GB = 1024 MB
+   - 1 TB = 1024 GB
+   - 1 PB = 1024 TB
+   - 1 EB = 1024 PB
+   - 1 ZB = 1024 EB
 ### Recommended E-book: Effecitve Java
   - <b>class</b>
   - <b>object(instance)</b>
