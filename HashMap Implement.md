@@ -1,4 +1,1 @@
-## HashMap
-## size
-## Low Factor
-## capacity
+## HashMap, size, Low Factor, capacity
