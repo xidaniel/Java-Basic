@@ -212,6 +212,10 @@ There are two methods to implement sorting for **_Custom Class_** in Java.
     }
   });
   ```
+- lambda
+- ```java
+  PriorityQueue<Dog> minHeap = new PriorityQueue<>((o1, o2) -> o1.age - o2.age));
+  ```
 
 - Normal Example
 
