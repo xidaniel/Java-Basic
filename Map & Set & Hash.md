@@ -10,6 +10,7 @@
   
   
 ## Map <K,V>
+[reference](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
   - HashMap
     - It can only has one null key, it is always mapped to bucket 0.
   - TreeMap
