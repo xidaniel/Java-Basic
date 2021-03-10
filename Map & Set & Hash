@@ -1,6 +1,11 @@
 ## Set
   - HashSet: No guarantees the order of iteration
   - TreeSet: Implemented by BBST
+    - There are elements are sorted.
+    - TreeSet<Integer> set = new TreeSet<>();
+    - APIs:
+      - floor(E e) Returns the greatest element in this set less than or equal to the given element, or null if there is no such element.
+      - ceiling(E e) Returns the least element in this set greater than or equal to the given element, or null if there is no such element.
   - LinkedHashSet: Guarantees the order
   
   
