@@ -1,5 +1,3 @@
-+++
-
 ## What is Circular Array?
 
 - Circular Array is that we can connect the start and end of the array, so that it is a cycle.
