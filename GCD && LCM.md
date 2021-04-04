@@ -48,6 +48,6 @@
      
      	return lastGCD;
    }
-   ```
+   ```java
 
    
