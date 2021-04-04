@@ -41,13 +41,14 @@
        	return array[0];
        }
        
-     	int lastGCD = gcd(array[0], array[1]);
-     	for (int i = 2; i < array.length; i++) {
-       	lastGCD = gcd(lastGCD, array[i]);
-     	}
-     
-     	return lastGCD;
+       int lastGCD = gcd(array[0], array[1]);
+       
+       for (int i = 2; i < array.length; i++) {
+          lastGCD = gcd(lastGCD, array[i]);
+       }
+       
+       return lastGCD;
    }
-   ```java
+   ```
 
    
